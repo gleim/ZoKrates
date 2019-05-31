@@ -1,0 +1,38 @@
+def main(private field vote0, private field vote1, private field vote2, private field vote3, private field vote4, private field vote5, private field vote6, private field vote7, private field vote8, private field vote9, private field vote10, private field vote11, private field vote12, private field vote13, private field vote14, private field vote15, private field vote16) -> (field, field) :
+	field nays = 0
+	field yays = 0
+	nays = if vote0 == 0 then nays+1 else nays fi
+	yays = if vote0 == 1 then yays+1 else yays fi
+	nays = if vote1 == 0 then nays+1 else nays fi
+	yays = if vote1 == 1 then yays+1 else yays fi
+	nays = if vote2 == 0 then nays+1 else nays fi
+	yays = if vote2 == 1 then yays+1 else yays fi
+	nays = if vote3 == 0 then nays+1 else nays fi
+	yays = if vote3 == 1 then yays+1 else yays fi
+	nays = if vote4 == 0 then nays+1 else nays fi
+	yays = if vote4 == 1 then yays+1 else yays fi
+	nays = if vote5 == 0 then nays+1 else nays fi
+	yays = if vote5 == 1 then yays+1 else yays fi
+	nays = if vote6 == 0 then nays+1 else nays fi
+	yays = if vote6 == 1 then yays+1 else yays fi
+	nays = if vote7 == 0 then nays+1 else nays fi
+	yays = if vote7 == 1 then yays+1 else yays fi
+	nays = if vote8 == 0 then nays+1 else nays fi
+	yays = if vote8 == 1 then yays+1 else yays fi
+	nays = if vote9 == 0 then nays+1 else nays fi
+	yays = if vote9 == 1 then yays+1 else yays fi
+	nays = if vote10 == 0 then nays+1 else nays fi
+	yays = if vote10 == 1 then yays+1 else yays fi
+	nays = if vote11 == 0 then nays+1 else nays fi
+	yays = if vote11 == 1 then yays+1 else yays fi
+	nays = if vote12 == 0 then nays+1 else nays fi
+	yays = if vote12 == 1 then yays+1 else yays fi
+	nays = if vote13 == 0 then nays+1 else nays fi
+	yays = if vote13 == 1 then yays+1 else yays fi
+	nays = if vote14 == 0 then nays+1 else nays fi
+	yays = if vote14 == 1 then yays+1 else yays fi
+	nays = if vote15 == 0 then nays+1 else nays fi
+	yays = if vote15 == 1 then yays+1 else yays fi
+	nays = if vote16 == 0 then nays+1 else nays fi
+	yays = if vote16 == 1 then yays+1 else yays fi
+	return nays, yays
